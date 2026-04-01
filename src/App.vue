@@ -30,7 +30,7 @@ const scoreMax = ref();
 const gameStarted = ref(false);
 const players = ref([
   { name: 'Player 1', score: 0 },
-  { name: 'Player 2', score: 0 }
+  { name: 'Player Player 2', score: 0 }
 ]);
 
 const startGame = (max) => {
@@ -54,8 +54,6 @@ const resetGame = () => {
 </script>
 
 <style lang="scss">
-/* Keep your existing SCSS here */
-</style><style lang="scss">
 $primary-bg: #f8f9fa;
 $border-color: #e0e0e0;
 $text-color: #2c3e50;
